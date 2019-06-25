@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/scence/loading_time.unity
+  isLoaded: 1
+  isActive: 1

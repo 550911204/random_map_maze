@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1460943247701284}
+  m_IsPrefabParent: 1
+--- !u!1 &1460943247701284
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4666848700208268}
+  - component: {fileID: 114815385185903166}
+  m_Layer: 0
+  m_Name: Maze
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4666848700208268
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1460943247701284}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114815385185903166
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1460943247701284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c28993be1d9fad444b914d3913eeb790, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clockCount: 0
+  isLife: 0
+  isStart: 0
+  isClock: 0
+  clockPrefab: {fileID: 114872621898630824, guid: 727c69549d40afd49bc54b8a94c977ec,
+    type: 2}
+  thirdPrefab: {fileID: 114717250902583000, guid: 72a8b0293340fa14b86d7248d967985f,
+    type: 2}
+  size:
+    x: 20
+    z: 20
+  generationStepDelay: 0.01
+  cellPrefab: {fileID: 114026708230182440, guid: cfe7ca196c46289429a81f69ddf6ac3c,
+    type: 2}
+  wallPrefab: {fileID: 114900932765554008, guid: 4e2d45f5fb2fa564d9c54a5ba88f14a9,
+    type: 2}
+  passagePrefab: {fileID: 114337105807437656, guid: 793e54ec831806d4788cbf32a1443305,
+    type: 2}
